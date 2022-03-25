@@ -1,6 +1,11 @@
 # Auto-Network-Login
 This app will log you in after every 3 hours automatically. And don't worry, it's not CPU intensive.
 
+## Tested on:
+- [X] Linux
+- [X] Windows
+- [ ] Mac
+
 ## Requirements
 - Mozilla Firefox
 - Python3
