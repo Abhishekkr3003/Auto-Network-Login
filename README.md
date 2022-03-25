@@ -30,10 +30,10 @@ This app will log you in after every 3 hours automatically. And don't worry, it'
     - Select Properties.
     - Select Advanced system settings.
     - Click on the Environment Variables button.
-    - From System Variables, select PATH.
+    - From **System Variables**, select PATH.
     - Click on the Edit button.
     - Click the New button.
-    - Paste the path of the GeckoDriver file (For example, your path will be something like C:\driver)
+    - Paste the path of the GeckoDriver executable file's directory (For example, your path will be something like C:\driver)
     ```
   
  - Selenium (Install it using `pip install selenium`)
