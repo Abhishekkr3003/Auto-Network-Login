@@ -13,7 +13,7 @@ Download the `.exe` [file](https://github.com/Abhishekkr3003/Auto-Network-Login/
 ![Windows Demo Image](./Demo-Windows.PNG)
 
 ## For Linux:
-Download the [executable file](https://github.com/Abhishekkr3003/Auto-Network-Login/releases/download/v0.2.0/Auto-Network-Login-Linux), open the terminal and run `chmod +x Auto-Network-Login-Linux`. After that, you can always run it using `./Auto-Network-Login-Linux`.
+Download [this file](https://github.com/Abhishekkr3003/Auto-Network-Login/releases/download/v0.2.0/Auto-Network-Login-Linux), open the terminal and run `chmod +x Auto-Network-Login-Linux`. After that, you can always run it using `./Auto-Network-Login-Linux`.
 
 ![Linux Demo Image](./Demo-Linux.png)
 
