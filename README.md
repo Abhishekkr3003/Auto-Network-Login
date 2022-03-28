@@ -1,51 +1,16 @@
 # Auto-Network-Login
 This app will log you in after every 3 hours automatically. And don't worry, it's not CPU intensive.
 
-## Tested on:
-- [X] Linux
-- [X] Windows
-- [ ] Mac
-
 ## Requirements
-- Mozilla Firefox
-- Python3
-- PIP 
-  
-  Command to install (For Ubuntu-based systems) 
-  
-  `sudo apt install python3-pip`
-  
-- GECKODRIVER 
-  
-  Installation
-  
-  <strong>Linux</strong>
-  ```
-  wget https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-linux64.tar.gz
-  sudo sh -c 'tar -x geckodriver -zf geckodriver-v0.30.0-linux64.tar.gz -O > /usr/bin/geckodriver'
-  sudo chmod +x /usr/bin/geckodriver
-  rm geckodriver-v0.30.0-linux64.tar.gz
-  ```
-  
-  <strong>Windows</strong>
-  
-  Download geckodriver from `https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-win64.zip` and extract it in a folder say `C:\driver` then copy this path and follow the following steps: 
-    ```
-    - Right-click on My Computer or This PC.
-    - Select Properties.
-    - Select Advanced system settings.
-    - Click on the Environment Variables button.
-    - From **System Variables**, select PATH.
-    - Click on the Edit button.
-    - Click the New button.
-    - Paste the path of the GeckoDriver executable file's directory (For example, your path will be something like C:\driver)
-    ```
-  
- - Selenium (Install it using `pip install selenium`)
-  
+You just need to have `Mozilla Firefox` installed on your system.
+ 
 ## Installation
-Just download and unzip or clone this repository. Open your terminal and navigate to that directory and run `python3 main.py`; enter your username and password, and that's it. It will keep you logged in till you are connected to the LNMIIT network.
+Go to the `Releases` and download the latest executable file according to your operating system (Available for `Linux` and `Windows`).
 
-PS: you can build on top of it and define username and password in the python script.
+### For Windows:
+Download `.exe` file run it and enter your credentials.
+
+### For Linux:
+Download the executable file, go to terminal and run it using `./Auto-Network-Login-Linux`, then enter your credentials.
 
 ![Demo Image](https://github.com/Abhishekkr3003/Auto-Network-Login/blob/main/AutoLoggin.png)
